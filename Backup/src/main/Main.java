@@ -2,7 +2,7 @@ package main;
 
 public class Main {
 	static int count = 5;
-	static String pathfrom = "E:\\UÅÌ±¸·Ý";
+	static String pathfrom = "E:\\Uç›˜å¤‡ä»½";
 	public static void main(String[] args) {
 		Backup b = new Backup(count,pathfrom);
 		Thread t1 = new Thread(new Searcher(b));
