@@ -1,10 +1,10 @@
-package backup;
+package main;
 
 public class Searcher implements Runnable {
-	private Functions backup = null;
+	private Backup backup = null;
 	
-	public Searcher(Functions bu) {
-		this.backup = bu;
+	public Searcher(Backup rf) {
+		this.backup = rf;
 	}
 	
 	@Override

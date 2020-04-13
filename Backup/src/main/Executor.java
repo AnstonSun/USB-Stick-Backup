@@ -1,10 +1,10 @@
-package backup;
+package main;
 
 public class Executor implements Runnable {
-	private Functions backup = null;
+	private Backup backup = null;
 	
-	public Executor(Functions bu) {
-		this.backup = bu;
+	public Executor(Backup rf) {
+		this.backup = rf;
 	}
 	
 	@Override
